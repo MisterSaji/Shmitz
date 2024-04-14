@@ -1,0 +1,114 @@
+.mainnav a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.mainnav a:hover {
+    color: #040404;
+
+}
+
+p {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 10000px;
+    background-color: #a7a3d4;
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    top: 325px;
+    left: 175px;
+    color: #A2EEB2;
+    font-size: 30px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    color: rgb(68, 75, 172);
+    font-size: 30px;
+}
+
+.item {
+    width: 170px;
+    height: 25px;
+    background-color: rgb(68, 75, 172);
+    padding: 20px;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.item2 {
+    width: 280px;
+    height: 25px;
+    background-color: #A2EEB2;
+    padding: 10px;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.mainnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 600px;
+    height: 50px;
+    background-color: #a2eeb2;
+    position: absolute;
+    top: 0;
+    left: 33%;
+    font-size: 17px;
+}
+
+.home-container {
+    position: relative;
+    top: 875px;
+    width: 1350px;
+    left: 100px;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inleiding {
+    background-color: red;
+    width: 65%;
+    height: 400px;
+}
+
+.agendblock {
+    background-color: #3aaf16;
+    width: 34%;
+    height: 400px;
+    left: 750px;
+}
+
+.maps {
+    background-color: #a2eeb2;
+    height: 450px;
+    width: 100%;
+    border: 13px solid #a2eeb2;
+    background-image: url(../images/maps.png);
+    background-size: cover;
+    background-position: center;
+}
